@@ -2,29 +2,24 @@
 public class Program {
 	public static void main(String[] args)
 	{
-
+		jugarFizzbuzz();
     }
 
-    public boolean fizzbuzz(){
-		for(int i = 0; i < 100; i++)
-		{
-			if (i % 3 == 0 && i % 5 == 0)
-			{
-				System.out.println("FizzBuzz");
-			}
-			else
-			if(i % 3 == 0)
-			{
-				System.out.println("Fizz");
-			}
-			else
-			if(i % 5 == 0)
-			{
-				System.out.println("Buzz");
-			}
-			else
-				System.out.println(i);
+    public static Object verificarNumero(int i){
+		if (i % 15 == 0)
+			return "FizzBuzz";
+		if(i % 3 == 0)
+			return "Fizz";
+		if(i % 5 == 0)
+			return "Buzz";
+		return i;
+	}
+
+    public static void jugarFizzbuzz(){
+		Object resultado="";
+		for(int i = 0; i < 100; i++) {
+			resultado=verificarNumero(i);
+			System.out.println(resultado);
 		}
-		return true;
 	}
 }
