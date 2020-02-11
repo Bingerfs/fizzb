@@ -5,21 +5,25 @@ public class Program {
 		jugarFizzbuzz();
     }
 
-    public static Object verificarNumero(int i){
-		if (i % 15 == 0)
+    public static Object verificarNumero(int numero){
+		if (esMultiploDe(numero, 15))
 			return "FizzBuzz";
-		if(i % 3 == 0)
+		if(esMultiploDe(numero, 3))
 			return "Fizz";
-		if(i % 5 == 0)
+		if(esMultiploDe(numero, 5))
 			return "Buzz";
-		return i;
+		return numero;
 	}
 
     public static void jugarFizzbuzz(){
 		Object resultado="";
-		for(int i = 0; i < 100; i++) {
-			resultado=verificarNumero(i);
+		for(int numero = 0; numero < 100; numero++) {
+			resultado=verificarNumero(numero);
 			System.out.println(resultado);
 		}
 	}
+
+	public static boolean esMultiploDe(int dividendo, int divisor){
+	    return dividendo%divisor == 0;
+    }
 }

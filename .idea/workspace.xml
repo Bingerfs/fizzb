@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb80f0d2-9821-4f24-b97e-1a3b0ac5e8df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FizzBuzz_sin_RF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FizzBuzz_sin_RF.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ProgramTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +14,12 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FizzBuzz_sin_RF$ProgramTest.ic" NAME="ProgramTest Coverage Results" MODIFIED="1581435962458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="187" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1555569159">
@@ -22,22 +31,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="classpath" value="1" />
           <entry key="java" value="3" />
+          <entry key="project" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Eclipse" value="2" />
           <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="693" />
+          <entry key="java" value="905" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="693" />
+          <entry key="JAVA" value="905" />
         </counts>
       </usages-collector>
     </session>
@@ -47,21 +59,39 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="e#65#66#0" expanded="true" />
                 <element signature="e#78#79#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProgramTest.java">
+        <entry file="file://$PROJECT_DIR$/.classpath">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-121" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/ProgramTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,6 +115,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ProgramTest.java" />
+        <option value="$PROJECT_DIR$/tests/ProgramTest.java" />
         <option value="$PROJECT_DIR$/src/Program.java" />
       </list>
     </option>
@@ -115,6 +146,11 @@
               <item name="FizzBuzz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FizzBuzz_sin_RF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FizzBuzz" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,17 +162,20 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581431401520" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581437903787" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -195,34 +234,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProgramTest - 2020.02.11 at 09h 59m 41s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 10h 29m 37s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 16m 06s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 10h 30m 05s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 16m 18s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 10h 50m 37s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 16m 27s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 10h 50m 47s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 17m 20s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 10h 51m 02s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 18m 21s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 11h 09m 48s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 19m 20s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 11h 43m 51s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 22m 16s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 11h 45m 55s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 23m 00s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 11h 46m 33s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgramTest - 2020.02.11 at 10h 23m 38s.xml">
+    <history-entry file="ProgramTest - 2020.02.11 at 11h 48m 42s.xml">
       <configuration name="ProgramTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -239,16 +278,17 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007669" side_tool="true" visible="true" weight="0.3293919" />
       <window_info anchor="bottom" id="Messages" weight="0.3293919" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293919" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" visible="true" weight="0.3293919" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297546" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -262,23 +302,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ProgramTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/ProgramTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        <state relative-caret-position="301">
+          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="e#65#66#0" expanded="true" />
             <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
